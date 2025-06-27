@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS TEAM_MEMBERS(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    MEMBER_NAMES VARCHAR(50) NOT NULL,
+    EMAIL VARCHAR(50) NOT NULL
+);
+
+INSERT INTO TEAM_MEMBERS(MEMBER_NAMES,EMAIL) VALUES
+("Akilesh","akileshga.23msc@kongu.edu"),
+("kabhilan","kabhilanvs.23msc@kongu.edu"),
+("Nivetha","nivethav.23msc@kongu.edu"),
+("Rithanya","rithanyaparamasivam.23msc@kongu.edu");
+
+SELECT * FROM TEAM_MEMBERS;SELECT * FROM TEAM_MEMBERS;SELECT * FROM DISTINCT TEAM_MEMBERS;SELECT * DISTINCT FROM TEAM_MEMBERS;
